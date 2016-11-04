@@ -1,6 +1,7 @@
 package shi2013;
 
 public class DataVo {
+	private String data0 = "";
 	private String data1 = "";
 	private String data2 = "";
 	private String data3 = "";
@@ -22,84 +23,98 @@ public class DataVo {
 	private String data19 = "";
 	private String data20 = "";
 
+	public String toString() {
+		return data0 + "#" + data1 + "#" + data2 + "#" + data3 + "#" + data4 + "#" + data5 + "#" + data6 + "#" + data7 + "#" + data8 + "#"
+				+ data9 + "#" + data10 + "#" + data11 + "#" + data12 + "#" + data13 + "#" + data14 + "#" + data15 + "#" + data16 + "#"
+				+ data17 + "#" + data18 + "#" + data19 + "#" + data20;
+	}
+
+	public String getData0() {
+		return data0;
+	}
+
+	public void setData0(String data0) {
+		this.data0 = data0;
+	}
+
 	public String getData1() {
-		return data1;
+		return data1.trim();
 	}
 
 	public String getData2() {
-		return data2;
+		return data2.trim();
 	}
 
 	public String getData3() {
-		return data3;
+		return data3.trim();
 	}
 
 	public String getData4() {
-		return data4;
+		return data4.trim();
 	}
 
 	public String getData5() {
-		return data5;
+		return data5.trim();
 	}
 
 	public String getData6() {
-		return data6;
+		return data6.trim();
 	}
 
 	public String getData7() {
-		return data7;
+		return data7.trim();
 	}
 
 	public String getData8() {
-		return data8;
+		return data8.trim();
 	}
 
 	public String getData9() {
-		return data9;
+		return data9.trim();
 	}
 
 	public String getData10() {
-		return data10;
+		return data10.trim();
 	}
 
 	public String getData11() {
-		return data11;
+		return data11.trim();
 	}
 
 	public String getData12() {
-		return data12;
+		return data12.trim();
 	}
 
 	public String getData13() {
-		return data13;
+		return data13.trim();
 	}
 
 	public String getData14() {
-		return data14;
+		return data14.trim();
 	}
 
 	public String getData15() {
-		return data15;
+		return data15.trim();
 	}
 
 	public String getData16() {
-		return data16;
+		return data16.trim();
 	}
 
 	public String getData17() {
-		return data17;
+		return data17.trim();
 	}
 
 	public String getData18() {
-		return data18;
+		return data18.trim();
 	}
 
 	public String getData19() {
-		return data19;
+		return data19.trim();
 	}
 
 	public String getData20() {
-		return data20;
+		return data20.trim();
 	}
 
 	public void setData1(String data1) {

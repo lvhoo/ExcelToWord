@@ -3,8 +3,6 @@ package shi2014;
 import java.io.FileInputStream;
 import java.io.InputStream;
 
-import com.sun.xml.internal.ws.util.StringUtils;
-
 import jxl.Sheet;
 import jxl.Workbook;
 
